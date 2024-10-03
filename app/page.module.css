@@ -1,10 +1,10 @@
 .page {
-	--button-primary-hover: #383838;
-	--button-secondary-hover: #f2f2f2;
+	/* --button-primary-hover: #383838; */
+	/* --button-secondary-hover: #f2f2f2; */
 
-	display: grid;
+	/* display: grid; */
 
-	min-height: 100svh;
+	/* min-height: 100svh; */
 }
 
 @media (prefers-color-scheme: dark) {
