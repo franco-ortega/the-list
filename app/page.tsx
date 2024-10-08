@@ -1,3 +1,4 @@
+import List from '@/components/listItem/list/List';
 import styles from './page.module.css';
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
 			</header>
 			<main className={styles.main}>
 				<h2>Hello, Main</h2>
+				<div>
+					<List list={['one', 'two', 'three']} />
+				</div>
 			</main>
 			<footer className={styles.footer}>
 				<h3>Hey, Footer</h3>
