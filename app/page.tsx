@@ -1,4 +1,4 @@
-import List from '@/components/listItem/list/List';
+import List from '@/app/components/list/List';
 import styles from './page.module.css';
 
 export default function Home() {
