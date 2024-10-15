@@ -1,7 +1,8 @@
+import { ListItemType } from '@/app/utils/types';
 import ListItem from '../listItem/ListItem';
 
 type Props = {
-	list: string[];
+	list: ListItemType[];
 };
 
 export default function List({ list }: Props) {
